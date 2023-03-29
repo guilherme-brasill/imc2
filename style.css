@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://treinomestre.com.br/wp-content/uploads/2014/03/biotipo-e-somatotipo-1.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+    background-color: black;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.pai {
+    background-color: #d6c396;
+    height: 100vh;
+    width: 50%;
+    padding: 2rem;
+}
+
+h1 {
+    color: #1f0b0c;
+    font-size: 35px;
+    text-align: center;
+    line-height: 3.5rem;
+    letter-spacing: 3px;
+}
+
+hr {
+    margin: 10px 0;
+    margin-bottom: 3rem;
+}
+
+.filho {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 5rem;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.444);
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.filho label {
+    margin-bottom: 10px;
+}
+
+.filho input {
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.filho2 {
+
+    text-align: center;
+    position: relative;
+    bottom: 4rem;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3e3726a8;
+    color: rgba(177, 133, 90, 0.419);
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 5rem;
+    margin: 12px 0;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+p {
+    background-color: bisque;
+    margin-top: 5px;
+    font-size: 25px;
+    word-spacing: 5px;
+    padding: 1rem;
+}
+
+button:hover {
+    color: rgba(255, 213, 0, 0.368);
+}
+
+button:active {
+    transform: scale(1.5);
+}
